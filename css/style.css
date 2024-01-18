@@ -1,0 +1,120 @@
+body {
+    background-color: #7BF1A8;
+    color: #000000;
+    font-family: 'Lato';
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.keterangan p {
+    text-align: center;
+}
+
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.container_2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.container,
+.container_2 {
+    background-color: #C1FBA4;
+    font-size: 17px;
+    width: calc(45% - 20px); 
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container p,
+.container_2 p {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    color: #daf6ff;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Lato';
+    color: #363636;
+    text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 20px rgba(0, 0, 0, 0);
+}
+
+button {
+    font-family: 'Lato';
+    text-align: center;
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 20px rgba(0, 0, 0, 0);
+    position: relative;
+    display: inline-block;
+    color: #000000;
+    border: none;
+    background: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 10px;
+    letter-spacing: 4px;
+}
+
+button:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ffffff,
+                0 0 25px #ffffff,
+                0 0 50px #ffffff,
+                0 0 100px #ffffff;
+}
+
+.hasil-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.hasil {
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    flex-basis: 100%; 
+}
+
+.hasil p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.hasil span {
+    font-size: 24px;
+}
+
